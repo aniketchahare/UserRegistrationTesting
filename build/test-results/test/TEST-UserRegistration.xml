@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistration" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-12-24T07:14:31" hostname="aniketchahare" time="0.004">
+<testsuite name="UserRegistration" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-12-24T10:32:42" hostname="aniketchahare" time="0.016">
   <properties/>
-  <testcase name="whenGivenLastNameWithNumeric_ShouldReturnNotValid" classname="UserRegistration" time="0.001"/>
-  <testcase name="whenGivenLastNameUpperCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenEmailContainsSpecialCharInAddressField_ShouldReturnNotValid" classname="UserRegistration" time="0.002"/>
+  <testcase name="whenGivenLastNameWithNumeric_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenInvalidEmail_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenLastNameUpperCase_ShouldReturnNotValid" classname="UserRegistration" time="0.001"/>
   <testcase name="whenGivenFirstNameUpperCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenFirstNameWithNumeric_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenEmailContainsDotWithSubDomain_ShouldReturnValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenFirstNameWithNumeric_ShouldReturnNotValid" classname="UserRegistration" time="0.001"/>
   <testcase name="whenGivenFirstNameCapitalize_ShouldReturnValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenLastNameWithTwoLetters_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenLastNameCapitalize_ShouldReturnValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenEmailContainsDotInAddressField_ShouldReturnValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenValidEmail_ShouldReturnValid" classname="UserRegistration" time="0.001"/>
   <testcase name="whenGivenLastNameLowerCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstNameLowerCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenEmailContainsDotInAddressFieldTwice_ShouldReturnValid" classname="UserRegistration" time="0.001"/>
   <testcase name="whenGivenFirstNameWithTwoLetters_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -71,4 +71,53 @@ public class UserRegistration {
         String lastName = validateUserRegistration.analyzeLastName("Ch");
         Assert.assertEquals("Not valid", lastName);
     }
+
+    @Test
+    public void whenGivenValidEmail_ShouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc@bl.com");
+        Assert.assertEquals("Valid", email);
+    }
+
+    @Test
+    public void whenGivenEmailContainsDotWithSubDomain_ShouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc@bl.com");
+        Assert.assertEquals("Valid", email);
+    }
+
+    @Test
+    public void whenGivenEmailContainsDotInAddressField_ShouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc.xyz@bl.co.in");
+        Assert.assertEquals("Valid", email);
+    }
+
+    @Test
+    public void whenGivenInvalidEmail_ShouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc.xyzbl.co.in");
+        Assert.assertEquals("Not valid", email);
+    }
+
+    @Test
+    public void whenGivenEmailContainsDotInAddressFieldTwice_ShouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc.xyz.pqr@bl.co.in");
+        Assert.assertEquals("Not valid", email);
+    }
+
+    @Test
+    public void whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc.xyz$bl.co.in");
+        Assert.assertEquals("Not valid", email);
+    }
+
+    @Test
+    public void whenGivenEmailContainsSpecialCharInAddressField_ShouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc^xyz@bl.co.in");
+        Assert.assertEquals("Not valid", email);
+    }
 }
