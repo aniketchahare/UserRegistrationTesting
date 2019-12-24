@@ -3,121 +3,128 @@ import org.junit.Test;
 
 public class UserRegistration {
     @Test
-    public void whenGivenFirstNameCapitalize_ShouldReturnValid() {
+    public void whenGivenFirstName_capitalize_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String firstName = validateUserRegistration.analyzeFirstName("Aniket");
         Assert.assertEquals("Valid", firstName);
     }
 
     @Test
-    public void whenGivenFirstNameLowerCase_ShouldReturnNotValid() {
+    public void whenGivenFirstName_lowerCase_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String firstName = validateUserRegistration.analyzeFirstName("aniket");
         Assert.assertEquals("Not valid", firstName);
     }
 
     @Test
-    public void whenGivenFirstNameUpperCase_ShouldReturnNotValid() {
+    public void whenGivenFirstName_upperCase_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String firstName = validateUserRegistration.analyzeFirstName("ANIKET");
         Assert.assertEquals("Not valid", firstName);
     }
 
     @Test
-    public void whenGivenFirstNameWithNumeric_ShouldReturnNotValid() {
+    public void whenGivenFirstName_withNumeric_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String firstName = validateUserRegistration.analyzeFirstName("Aniket123");
         Assert.assertEquals("Not valid", firstName);
     }
 
     @Test
-    public void whenGivenFirstNameWithTwoLetters_ShouldReturnNotValid() {
+    public void whenGivenFirstName_withTwoLetters_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String firstName = validateUserRegistration.analyzeFirstName("An");
         Assert.assertEquals("Not valid", firstName);
     }
 
     @Test
-    public void whenGivenLastNameCapitalize_ShouldReturnValid() {
+    public void whenGivenLastName_capitalize_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String lastName = validateUserRegistration.analyzeLastName("Chahare");
         Assert.assertEquals("Valid", lastName);
     }
 
     @Test
-    public void whenGivenLastNameLowerCase_ShouldReturnNotValid() {
+    public void whenGivenLastName_lowerCase_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String lastName = validateUserRegistration.analyzeLastName("chahare");
         Assert.assertEquals("Not valid", lastName);
     }
 
     @Test
-    public void whenGivenLastNameUpperCase_ShouldReturnNotValid() {
+    public void whenGivenLastName_upperCase_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String lastName = validateUserRegistration.analyzeLastName("CHAHARE");
         Assert.assertEquals("Not valid", lastName);
     }
 
     @Test
-    public void whenGivenLastNameWithNumeric_ShouldReturnNotValid() {
+    public void whenGivenLastName_withNumeric_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String lastName = validateUserRegistration.analyzeLastName("Chahare123");
         Assert.assertEquals("Not valid", lastName);
     }
 
     @Test
-    public void whenGivenLastNameWithTwoLetters_ShouldReturnNotValid() {
+    public void whenGivenLastName_withTwoLetters_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String lastName = validateUserRegistration.analyzeLastName("Ch");
         Assert.assertEquals("Not valid", lastName);
     }
 
     @Test
-    public void whenGivenValidEmail_ShouldReturnValid() {
+    public void whenGivenValidEmail_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc@bl.com");
         Assert.assertEquals("Valid", email);
     }
 
     @Test
-    public void whenGivenEmailContainsDotWithSubDomain_ShouldReturnValid() {
+    public void whenGivenEmail_containsDot_withSubDomain_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc@bl.com");
         Assert.assertEquals("Valid", email);
     }
 
     @Test
-    public void whenGivenEmailContainsDotInAddressField_ShouldReturnValid() {
+    public void whenGivenEmail_containsDot_inAddressField_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc.xyz@bl.co.in");
         Assert.assertEquals("Valid", email);
     }
 
     @Test
-    public void whenGivenInvalidEmail_ShouldReturnNotValid() {
+    public void whenGivenInvalidEmail_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc.xyzbl.co.in");
         Assert.assertEquals("Not valid", email);
     }
 
     @Test
-    public void whenGivenEmailContainsDotInAddressFieldTwice_ShouldReturnValid() {
+    public void whenGivenEmail_containsDot_inAddressFieldTwice_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc.xyz.pqr@bl.co.in");
         Assert.assertEquals("Not valid", email);
     }
 
     @Test
-    public void whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid() {
+    public void whenGivenEmail_containsSpecialChar_withSubDomain_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc.xyz$bl.co.in");
         Assert.assertEquals("Not valid", email);
     }
 
     @Test
-    public void whenGivenEmailContainsSpecialCharInAddressField_ShouldReturnNotValid() {
+    public void whenGivenEmail_containsSpecialChar_inAddressField_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String email = validateUserRegistration.analyzeEmail("abc^xyz@bl.co.in");
         Assert.assertEquals("Not valid", email);
     }
+//
+//    @Test
+//    public void whenGivenMobileNumber_shouldReturnValid() {
+//        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+//        String mobileNumber = validateUserRegistration.analyzeMobileNumber("918806633936");
+//        Assert.assertEquals("Valid", mobileNumber);
+//    }
 }

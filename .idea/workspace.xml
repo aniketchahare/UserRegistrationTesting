@@ -5,24 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c25177-b8ca-4e19-8772-1d6cd1a1efc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/validateUserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/validateUserRegistration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/UserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/UserRegistration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/UserRegistration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/UserRegistration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-UserRegistration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-UserRegistration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/validateUserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validateUserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserRegistration.java" afterDir="false" />
     </list>
@@ -57,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="112" column="78" lean-forward="true" selection-start-line="112" selection-start-column="78" selection-end-line="112" selection-end-column="78" />
+            <state relative-caret-position="591">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/validateUserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
+            <state relative-caret-position="321">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -101,7 +83,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
+    <option name="x" value="985" />
     <option name="y" value="25" />
     <option name="width" value="935" />
     <option name="height" value="1055" />
@@ -240,12 +222,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistration.whenGivenInvalidEmail_ShouldReturnNotValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistration.whenGivenMobileNumber_ShouldReturnValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;UserRegistration.whenGivenInvalidEmail_ShouldReturnNotValid&quot;" />
+        <option name="scriptParameters" value="--tests &quot;UserRegistration.whenGivenMobileNumber_ShouldReturnValid&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -263,10 +245,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UserRegistration" />
+        <item itemvalue="Gradle.UserRegistration.whenGivenMobileNumber_ShouldReturnValid" />
         <item itemvalue="Gradle.UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" />
         <item itemvalue="Gradle.UserRegistration.whenGivenEmailContainsSpecialCharInAddressField_ShouldReturnNotValid" />
         <item itemvalue="Gradle.UserRegistration.whenGivenEmailContainsDotInAddressFieldTwice_ShouldReturnValid" />
-        <item itemvalue="Gradle.UserRegistration.whenGivenInvalidEmail_ShouldReturnNotValid" />
       </list>
     </recent_temporary>
   </component>
@@ -284,42 +266,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 56m 07s.xml">
+    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 01m 37s.xml">
       <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 56m 28s.xml">
+    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 01m 46s.xml">
       <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 56m 45s.xml">
+    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 01m 54s.xml">
       <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 57m 19s.xml">
+    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 02m 05s.xml">
       <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 57m 30s.xml">
+    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 02m 17s.xml">
       <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 57m 36s.xml">
+    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 02m 29s.xml">
       <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 15h 57m 42s.xml">
-      <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration - 2019.12.24 at 16h 02m 42s.xml">
+      <configuration name="UserRegistration" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 00m 19s.xml">
-      <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration_whenGivenMobileNumber_ShouldReturnValid - 2019.12.24 at 16h 55m 57s.xml">
+      <configuration name="UserRegistration.whenGivenMobileNumber_ShouldReturnValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharInAddressField_ShouldReturnNotValid - 2019.12.24 at 16h 00m 45s.xml">
-      <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharInAddressField_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration_whenGivenMobileNumber_ShouldReturnValid - 2019.12.24 at 16h 56m 02s.xml">
+      <configuration name="UserRegistration.whenGivenMobileNumber_ShouldReturnValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid - 2019.12.24 at 16h 00m 54s.xml">
-      <configuration name="UserRegistration.whenGivenEmailContainsSpecialCharWithSubDomain_ShouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration - 2019.12.24 at 17h 01m 23s.xml">
+      <configuration name="UserRegistration" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14371915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11574328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,20 +333,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/validateLastName.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ValidateUserRegistration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/validateFirstName.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/validateUserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="112" column="78" lean-forward="true" selection-start-line="112" selection-start-column="78" selection-end-line="112" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="321">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validateUserRegistration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
+        <state relative-caret-position="591">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
