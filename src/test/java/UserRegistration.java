@@ -120,11 +120,53 @@ public class UserRegistration {
         String email = validateUserRegistration.analyzeEmail("abc^xyz@bl.co.in");
         Assert.assertEquals("Not valid", email);
     }
-//
-//    @Test
-//    public void whenGivenMobileNumber_shouldReturnValid() {
-//        validateUserRegistration validateUserRegistration = new validateUserRegistration();
-//        String mobileNumber = validateUserRegistration.analyzeMobileNumber("918806633936");
-//        Assert.assertEquals("Valid", mobileNumber);
-//    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_shouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("91 8806633936");
+        Assert.assertEquals("Valid", mobileNumber);
+    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_followedWithoutSpace_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("918898633456");
+        Assert.assertEquals("Not valid", mobileNumber);
+    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("91880223335634");
+        Assert.assertEquals("Not valid", mobileNumber);
+    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_withLessThanLengthTen_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("918802936");
+        Assert.assertEquals("Not valid", mobileNumber);
+    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_includingChar_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("91 8802936awd");
+        Assert.assertEquals("Not valid", mobileNumber);
+    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("91 880*3^6234");
+        Assert.assertEquals("Not valid", mobileNumber);
+    }
+
+    @Test
+    public void whenGivenCountryCode_mobileNumber_includingSpaces_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String mobileNumber = validateUserRegistration.analyzeMobileNumber("91 880 2326 234");
+        Assert.assertEquals("Not valid", mobileNumber);
+    }
 }
