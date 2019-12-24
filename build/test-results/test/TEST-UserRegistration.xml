@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistration" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-12-24T06:50:26" hostname="aniketchahare" time="0.002">
+<testsuite name="UserRegistration" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-12-24T07:14:31" hostname="aniketchahare" time="0.004">
   <properties/>
-  <testcase name="whenGivenFirstNameUpperCase_ShouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenLastNameWithNumeric_ShouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenLastNameUpperCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenFirstNameUpperCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstNameWithNumeric_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstNameCapitalize_ShouldReturnValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenLastNameWithTwoLetters_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenLastNameCapitalize_ShouldReturnValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenLastNameLowerCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstNameLowerCase_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstNameWithTwoLetters_ShouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
