@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="591">
-              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/validateUserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -141,33 +141,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserRegistration.whenGivenCountryCode_mobileNumber_includingSpaces_shouldReturnNotValid">
+  <component name="RunManager" selected="Gradle.UserRegistration">
     <configuration name="UserRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;UserRegistration&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_includingChar_shouldReturnNotValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;UserRegistration.whenGivenCountryCode_mobileNumber_includingChar_shouldReturnNotValid&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -202,26 +182,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;UserRegistration.whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -242,13 +202,53 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;UserRegistration.whenGivenPassword_shouldReturnValid&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRegistration.whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;UserRegistration.whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserRegistration" />
+        <item itemvalue="Gradle.UserRegistration.whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" />
+        <item itemvalue="Gradle.UserRegistration.whenGivenPassword_shouldReturnValid" />
         <item itemvalue="Gradle.UserRegistration.whenGivenCountryCode_mobileNumber_includingSpaces_shouldReturnNotValid" />
         <item itemvalue="Gradle.UserRegistration.whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid" />
-        <item itemvalue="Gradle.UserRegistration.whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid" />
-        <item itemvalue="Gradle.UserRegistration.whenGivenCountryCode_mobileNumber_includingChar_shouldReturnNotValid" />
-        <item itemvalue="Gradle.UserRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -266,40 +266,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserRegistration_whenGivenMobileNumber_shouldReturnValid - 2019.12.24 at 17h 05m 35s.xml">
-      <configuration name="UserRegistration.whenGivenMobileNumber_shouldReturnValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration_whenGivenPassword_shouldReturnValid - 2019.12.24 at 17h 46m 36s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenMobileNumber_shouldReturnValid - 2019.12.24 at 17h 05m 41s.xml">
-      <configuration name="UserRegistration.whenGivenMobileNumber_shouldReturnValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration_whenGivenPassword_shouldReturnValid - 2019.12.24 at 17h 46m 41s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_followedWithoutSpace_shouldReturnNotValid - 2019.12.24 at 17h 08m 46s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_followedWithoutSpace_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration_whenGivenPassword_shouldReturnValid - 2019.12.24 at 17h 46m 46s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid - 2019.12.24 at 17h 10m 05s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="UserRegistration_whenGivenPassword_shouldReturnValid - 2019.12.24 at 17h 46m 53s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="UserRegistration - 2019.12.24 at 17h 11m 40s.xml">
+    <history-entry file="UserRegistration_whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid - 2019.12.24 at 17h 49m 24s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="UserRegistration_whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid - 2019.12.24 at 17h 49m 33s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="UserRegistration_whenGivenPassword_shouldReturnValid - 2019.12.24 at 17h 50m 47s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="UserRegistration_whenGivenPassword_shouldReturnValid - 2019.12.24 at 17h 50m 58s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_shouldReturnValid" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="UserRegistration_whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid - 2019.12.24 at 17h 51m 08s.xml">
+      <configuration name="UserRegistration.whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="UserRegistration - 2019.12.24 at 17h 52m 24s.xml">
       <configuration name="UserRegistration" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_includingChar_shouldReturnNotValid - 2019.12.24 at 17h 28m 34s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_includingChar_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid - 2019.12.24 at 17h 29m 48s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid - 2019.12.24 at 17h 30m 01s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid - 2019.12.24 at 17h 30m 10s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="UserRegistration_whenGivenCountryCode_mobileNumber_includingSpaces_shouldReturnNotValid - 2019.12.24 at 17h 31m 20s.xml">
-      <configuration name="UserRegistration.whenGivenCountryCode_mobileNumber_includingSpaces_shouldReturnNotValid" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="985" y="25" width="935" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23734534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -336,15 +335,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/validateFirstName.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/validateUserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
-          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

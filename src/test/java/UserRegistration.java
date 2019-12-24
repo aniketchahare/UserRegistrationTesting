@@ -169,4 +169,18 @@ public class UserRegistration {
         String mobileNumber = validateUserRegistration.analyzeMobileNumber("91 880 2326 234");
         Assert.assertEquals("Not valid", mobileNumber);
     }
+
+    @Test
+    public void whenGivenPassword_withMinimumLengthEight_shouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String password = validateUserRegistration.analyzePassword("12aBc678");
+        Assert.assertEquals("Valid", password);
+    }
+
+    @Test
+    public void whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String password = validateUserRegistration.analyzePassword("12sb567");
+        Assert.assertEquals("Not valid", password);
+    }
 }
