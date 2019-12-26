@@ -75,28 +75,49 @@ public class UserRegistration {
     @Test
     public void whenGivenValidEmail_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
-        String email = validateUserRegistration.analyzeEmail("abc@bl.com");
+        String email = validateUserRegistration.analyzeEmail("abc@yahoo.com");
+        Assert.assertEquals("Valid", email);
+    }
+
+    @Test
+    public void whenGivenValidEmail_containsDash_inAddressField_shouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc-100@yahoo.com");
         Assert.assertEquals("Valid", email);
     }
 
     @Test
     public void whenGivenEmail_containsDot_withSubDomain_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
-        String email = validateUserRegistration.analyzeEmail("abc@bl.com");
+        String email = validateUserRegistration.analyzeEmail("abc111@abc.com");
+        Assert.assertEquals("Valid", email);
+    }
+
+    @Test
+    public void whenGivenEmail_containsDot_inAddressField_withSubDomain_shouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc.100@abc.com.au");
+        Assert.assertEquals("Valid", email);
+    }
+
+    @Test
+    public void whenGivenEmail_containsDash_inAddressField_withSubDomain_shouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String email = validateUserRegistration.analyzeEmail("abc-100@abc.net");
         Assert.assertEquals("Valid", email);
     }
 
     @Test
     public void whenGivenEmail_containsDot_inAddressField_shouldReturnValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
-        String email = validateUserRegistration.analyzeEmail("abc.xyz@bl.co.in");
+        String email = validateUserRegistration.analyzeEmail("abc.100@yahoo.com");
         Assert.assertEquals("Valid", email);
     }
 
     @Test
     public void whenGivenInvalidEmail_shouldReturnNotValid() {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
-        String email = validateUserRegistration.analyzeEmail("abc.xyzbl.co.in");
+        String email = validateUserRegistration.analyzeEmail("abc@.com.my");
         Assert.assertEquals("Not valid", email);
     }
 
@@ -182,5 +203,12 @@ public class UserRegistration {
         validateUserRegistration validateUserRegistration = new validateUserRegistration();
         String password = validateUserRegistration.analyzePassword("12sb567");
         Assert.assertEquals("Not valid", password);
+    }
+
+    @Test
+    public void whenGivenPassword_withAtLeastOneUpperCase_shouldReturnValid() {
+        validateUserRegistration validateUserRegistration = new validateUserRegistration();
+        String password = validateUserRegistration.analyzePassword("Aniket123");
+        Assert.assertEquals("Valid", password);
     }
 }

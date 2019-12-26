@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistration" tests="26" skipped="0" failures="0" errors="0" timestamp="2019-12-24T12:22:24" hostname="aniketchahare" time="0.023">
+<testsuite name="UserRegistration" tests="30" skipped="0" failures="0" errors="0" timestamp="2019-12-26T05:38:54" hostname="aniketchahare" time="0.026">
   <properties/>
-  <testcase name="whenGivenEmail_containsDot_inAddressFieldTwice_shouldReturnValid" classname="UserRegistration" time="0.002"/>
-  <testcase name="whenGivenInvalidEmail_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenCountryCode_mobileNumber_followedWithoutSpace_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenFirstName_withNumeric_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenPassword_withAtLeastOneUpperCase_shouldReturnValid" classname="UserRegistration" time="0.003"/>
+  <testcase name="whenGivenEmail_containsDot_inAddressFieldTwice_shouldReturnValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenInvalidEmail_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenCountryCode_mobileNumber_followedWithoutSpace_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenFirstName_withNumeric_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenEmail_containsDash_inAddressField_withSubDomain_shouldReturnValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenCountryCode_mobileNumber_shouldReturnValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenLastName_lowerCase_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenLastName_lowerCase_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenPassword_withLessThanLengthEight_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenLastName_capitalize_shouldReturnValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstName_capitalize_shouldReturnValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenFirstName_upperCase_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
@@ -15,16 +17,18 @@
   <testcase name="whenGivenFirstName_withTwoLetters_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenEmail_containsDot_withSubDomain_shouldReturnValid" classname="UserRegistration" time="0.001"/>
   <testcase name="whenGivenValidEmail_shouldReturnValid" classname="UserRegistration" time="0.001"/>
-  <testcase name="whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
-  <testcase name="whenGivenLastName_withNumeric_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenCountryCode_mobileNumber_includingSpecialChar_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenLastName_withNumeric_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenPassword_withMinimumLengthEight_shouldReturnValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenEmail_containsDot_inAddressField_shouldReturnValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenEmail_containsSpecialChar_inAddressField_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenEmail_containsSpecialChar_withSubDomain_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenEmail_containsSpecialChar_withSubDomain_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenValidEmail_containsDash_inAddressField_shouldReturnValid" classname="UserRegistration" time="0.001"/>
   <testcase name="whenGivenFirstName_lowerCase_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenCountryCode_mobileNumber_withLessThanLengthTen_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenEmail_containsDot_inAddressField_withSubDomain_shouldReturnValid" classname="UserRegistration" time="0.0"/>
+  <testcase name="whenGivenCountryCode_mobileNumber_withLessThanLengthTen_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenLastName_upperCase_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
-  <testcase name="whenGivenLastName_withTwoLetters_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
+  <testcase name="whenGivenLastName_withTwoLetters_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenCountryCode_mobileNumber_withMoreThanLengthTen_shouldReturnNotValid" classname="UserRegistration" time="0.0"/>
   <testcase name="whenGivenCountryCode_mobileNumber_includingSpaces_shouldReturnNotValid" classname="UserRegistration" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
